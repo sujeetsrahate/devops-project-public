@@ -9,7 +9,7 @@ pipeline {
         DOCKER_IMAGE = "sujeetsr07/frontend2"
         IMAGE_TAG    = "${BUILD_NUMBER}"   // BEST PRACTICE
         GIT_BRANCH   = "main"
-        GIT_REPO     = "github.com/sujeetsrahate/devops-project.git"
+        GIT_REPO     = "https://github.com/sujeetsrahate/devops-project-public.git"
     }
 
     stages {
